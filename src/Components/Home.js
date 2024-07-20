@@ -31,7 +31,7 @@ const Home = ({ show }) => {
         initial="hidden"
         animate="show"
         transition={{ duration: 0.01, delay: 0.05, staggerChildren: 0.2 }}
-        className="font-bold sm:text-7xl text-6xl text-[#facc15] big tracking-wide sm:pt-3 md:flex"
+        className="font-bold sm:text-7xl text-6xl text-[#facc15] big tracking-wide sm:pt-3 md:flex ml-4"
       >
         <div>
           <motion.span variants={item}>A</motion.span>
@@ -48,7 +48,6 @@ const Home = ({ show }) => {
         <div className="md:ml-8 sm:ml-8">
           <motion.span variants={item}>D</motion.span>
           <motion.span variants={item}>E</motion.span>
-          <motion.span variants={item}>P</motion.span>
           <motion.span variants={item}>P</motion.span>
           <motion.span variants={item}>R</motion.span>
           <motion.span variants={item}>E</motion.span>
