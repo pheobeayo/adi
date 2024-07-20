@@ -45,12 +45,12 @@ const Home = ({ show }) => {
           <motion.span variants={item}>R</motion.span>
         </div>
 
-        <div className="md:ml-4">
+        <div className="md:ml-8 sm:ml-8">
           <motion.span variants={item}>D</motion.span>
           <motion.span variants={item}>E</motion.span>
           <motion.span variants={item}>P</motion.span>
           <motion.span variants={item}>P</motion.span>
-         <motion.span variants={item}>R</motion.span>
+          <motion.span variants={item}>R</motion.span>
           <motion.span variants={item}>E</motion.span>
           <motion.span variants={item}>S</motion.span>
           <motion.span variants={item}>S</motion.span>
@@ -80,7 +80,7 @@ const Home = ({ show }) => {
         transition={{ duration: 0.5 }}
         className="text-[#facc15] text-3xl font-bold pb-3 lg:text-5xl"
       >
-        A Support for Human Care
+        To restore Hope to Humanity One life at a time.
       </motion.h2>
       <motion.p
         initial={{ opacity: 0, x: -50 }}
