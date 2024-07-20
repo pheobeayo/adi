@@ -8,11 +8,11 @@ const Testimonies = ({ show }) => {
     <div
       className={`${show && "blur-sm"}  pt-2 px-2 sm:px-5 md:px-20 lg:pl-24 ff`}
     >
-      <h1 className="text-xl sm:text-2xl py-3 text-[#facc15]">
-        Testimonies
-        Hear from those whose lives have been transformed by our services.
+      <h1 className="text-xl sm:text-4xl py-3 text-[#facc15] font-bold">
+        Testimonies</h1>
+       <h2 className="text-[#facc15] text-xl">Hear from those whose lives have been transformed by our services.
         These heartfelt stories showcase personal journeys, triumphs, and the support of our community.
-        Discover the impact we’re making and how we’re helping individuals achieve better mental health and well-being.</h1>
+        Discover the impact we’re making and how we’re helping individuals achieve better mental health and well-being.</h2> 
       <div>
         <section className="pb-5">
           <h2 className="text-name sm:text-xl py-3">

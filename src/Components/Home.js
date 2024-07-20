@@ -50,8 +50,7 @@ const Home = ({ show }) => {
           <motion.span variants={item}>E</motion.span>
           <motion.span variants={item}>P</motion.span>
           <motion.span variants={item}>P</motion.span>
-          <motion.span variants={item}>P</motion.span>
-          <motion.span variants={item}>R</motion.span>
+         <motion.span variants={item}>R</motion.span>
           <motion.span variants={item}>E</motion.span>
           <motion.span variants={item}>S</motion.span>
           <motion.span variants={item}>S</motion.span>
