@@ -101,11 +101,11 @@ const Contact = ({ show }) => {
         >
           <div className="flex items-center my-3 gap-4">
             <TbPhone />
-            <p>+444</p>
+            <p>+447724389666</p>
           </div>
           <div className="flex items-center my-3 gap-4">
             <TbMail />
-            <p>Aidfordepression@gmail.com</p>
+            <p>aidfordepreassioninnitiative@gmail.com</p>
           </div>
           <div className="flex gap-4">
           <div className="flex items-center my-3 gap-4">

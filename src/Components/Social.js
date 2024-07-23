@@ -22,7 +22,7 @@ const Social = () => {
         className="hover:text-[#854d0e] "
       > <FaFacebook color="white" className="hover:py-1" /></a>
       <a
-        href="mailto:Aidfordepression@gmail.com"
+        href="mailto:aidfordepreassioninnitiative@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-[#854d0e] "
