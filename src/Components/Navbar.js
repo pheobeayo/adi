@@ -95,13 +95,21 @@ const Navbar = () => {
           <motion.div variants={item}>
             {" "}
             <Link
-              to="/testimonies"
+              to="/success_stories"
               className="hover:text-[#fff] focus:text-[#fff]"
             >
-              Testimonies
+              Success Stories
             </Link>
           </motion.div>
-
+          <motion.div variants={item}>
+            {" "}
+            <Link
+              to="/blogs"
+              className="hover:text-[#fff] focus:text-[#fff]"
+            >
+              Blogs
+            </Link>
+          </motion.div>
 
           <motion.div variants={item}>
             {" "}
@@ -139,8 +147,11 @@ const Navbar = () => {
           <Link to="/campaigns" onClick={() => setShow(!show)}>
             Campaigns
           </Link>
-          <Link to="/testimonies" onClick={() => setShow(!show)}>
-            Testimonies
+          <Link to="/success_stories" onClick={() => setShow(!show)}>
+            Success Stories
+          </Link>
+          <Link to="/blogs" onClick={() => setShow(!show)}>
+            Blogs
           </Link>
           <Link to="/contact" onClick={() => setShow(!show)}>
             Contact

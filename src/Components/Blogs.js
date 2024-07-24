@@ -1,22 +1,21 @@
 import React from "react";
-import bannerImg from "../Images/banner-image.png";
-import bg2 from "../Images/bg2.png";
+import CampaignImg from "../Images/campaign2.jpg";
+import CampaignImg2 from "../Images/campaign4.jpg";
+import CampaignImg3 from "../Images/campaign5.jpg";
 import { motion } from "framer-motion";
 
-const Testimonies = ({ show }) => {
+const Blogs = ({ show }) => {
   return (
     <div
       className={`${show && "blur-sm"}  pt-2 px-2 sm:px-5 md:px-20 lg:pl-24 ff`}
     >
-      <h1 className="text-xl sm:text-4xl py-3 text-[#facc15] font-bold">
-        "Testimonies":</h1>
-       <h2 className="text-[#facc15] text-xl">Hear from those whose lives have been transformed by our services.
-        These heartfelt stories showcase personal journeys, triumphs, and the support of our community.
-        Discover the impact we’re making and how we’re helping individuals achieve better mental health and well-being.</h2> 
+      <h1 className="text-xl sm:text-2xl py-3 text-[#facc15]">
+        Our Blog
+        </h1>
       <div>
         <section className="pb-5">
           <h2 className="text-name sm:text-xl py-3">
-            <span className="text-white">01.</span> Oluwahirene, Nigeria
+            <span className="text-white">01.</span> Awareness Program
           </h2>
           <div className="flex justify-center items-center flex-col sm:flex-row ">
             <motion.article
@@ -28,12 +27,11 @@ const Testimonies = ({ show }) => {
               transition={{ duration: 1 }}
               className="sm:w-1/2 bg-[#233554] p-4 text-[#facc15]"
             >
-              Meeting the ADI Team is a blessing.
-              Thanks ma, you just lifted my spirit
-              I feel inspired and energized
-              Many people dont know what I go through but these day you have been into my life I know that I have a glorious future to live for
-              May God bless you ma.
-            
+              We are committed to providing exceptional mental health support, raising awareness,
+              and giving back to society by creating a community where everyone feels understood,valued,
+              and empowered to lead fulfilling lives.
+
+
             </motion.article>
             <motion.img
               initial={{ opacity: 0.5, x: -100 }}
@@ -42,8 +40,8 @@ const Testimonies = ({ show }) => {
                 x: 0,
               }}
               transition={{ duration: 1 }}
-              src={bannerImg}
-              alt="banner-image"
+              src={CampaignImg}
+              alt="campaign2"
               className="sm:w-1/2 rounded-b-lg sm:rounded-lg"
             />
           </div>
@@ -53,7 +51,7 @@ const Testimonies = ({ show }) => {
       <div>
         <section className="pb-5">
           <h2 className="text-name sm:text-xl py-3">
-            <span className="text-white">02.</span> Jane, Entrepreneur.
+            <span className="text-white">02.</span> Giving help to the Needy
           </h2>
           <div className="flex justify-center items-center flex-col sm:flex-row ">
             <motion.img
@@ -63,8 +61,8 @@ const Testimonies = ({ show }) => {
                 x: 0,
               }}
               transition={{ duration: 1 }}
-              src={bg2}
-              alt="bg2"
+              src={CampaignImg2}
+              alt="campaign4"
               className="sm:w-1/2 rounded-b-lg sm:rounded-lg"
             />
             <motion.article
@@ -76,21 +74,20 @@ const Testimonies = ({ show }) => {
               transition={{ duration: 1 }}
               className="sm:w-1/2 bg-[#233554] p-4 text-[#facc15]"
             >
-              Hmmm… The exact time when I thought everything was over for me that was when I met the ADI team awareness on portfolio 9 community platform ,I decided to join.
-              My first class with Them, my private chat with auntie ...her kind loving words and the first video call with me gives me strong hope that Jehovah God has sent an angel to be there for me cuz most people around me neglected me at that very moment of strong storm
-              When the second wave hit early last month I was able to scale through because of the various teaching from this great group
-              thank you auntie.
-              
+              Giving back to the society
+              Through raising awareness about mental health support
+
+
             </motion.article>
 
           </div>
         </section>
       </div>
-      
+
       <div>
         <section className="pb-5">
           <h2 className="text-name sm:text-xl py-3">
-            <span className="text-white">03.</span> Ngozi, Nigeria
+            <span className="text-white">03.</span> Enlightment Campaign
           </h2>
           <div className="flex justify-center items-center flex-col sm:flex-row ">
             <motion.article
@@ -102,9 +99,7 @@ const Testimonies = ({ show }) => {
               transition={{ duration: 1 }}
               className="sm:w-1/2 bg-[#233554] p-4 text-[#facc15]"
             >
-              The focus group class has helped me to let go of something I wish I can have to myself even when its hard to let it go but really appreciate all you have done. <br />
-              The support you gave always and all the cares and love you show us all.God bless you.Love you Ma.
-              
+              Giving Succour to the less priviledged is our Joy
             </motion.article>
             <motion.img
               initial={{ opacity: 0.5, x: -100 }}
@@ -113,8 +108,8 @@ const Testimonies = ({ show }) => {
                 x: 0,
               }}
               transition={{ duration: 1 }}
-              src={bannerImg}
-              alt="banner-image"
+              src={CampaignImg3}
+              alt="campaign5"
               className="sm:w-1/2 rounded-b-lg sm:rounded-lg"
             />
           </div>
@@ -122,13 +117,13 @@ const Testimonies = ({ show }) => {
       </div>
 
 
-      
-         
-        
 
-      
+
+
+
+
     </div>
   );
 };
 
-export default Testimonies;
+export default Blogs;

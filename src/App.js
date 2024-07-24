@@ -3,12 +3,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import About from "./Components/About";
 import Campaigns from "./Components/Campaigns";
-import Testimonies from "./Components/Testimonies";
+import Success from "./Components/Success";
 import Contact from "./Components/Contact";
 import Services from "./Components/Services";
 import Loading from "./Components/Loading";
 import Home from "./Components/Home";
 import SharedLayout from "./Components/SharedLayout";
+import Blogs from "./Components/Blogs";
 
 function App({ show, setShow }) {
   const [loading, setLoading] = useState(true);
@@ -29,8 +30,8 @@ function App({ show, setShow }) {
               <Route path="/campaigns" element={<Campaigns show={show} />} />
               <Route path="/contact" element={<Contact show={show} />} />
               <Route path="/services" element={<Services show={show} />} />
-              <Route path="/testimonies" element={<Testimonies show={show} />} />
-              
+              <Route path="/success_stories" element={<Success show={show} />} />
+              <Route path='/blogs' element={<Blogs show={show} />} />
             </Route>
           </Routes>
         </BrowserRouter>
